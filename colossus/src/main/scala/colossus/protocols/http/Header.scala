@@ -418,6 +418,7 @@ object Connection {
 
 object ContentType {
   val TextPlain       = "text/plain"
+  val TextPlainUtf8   = "text/plain; charset=utf-8"
   val ApplicationJson = "application/json"
   val OctetStream     = "application/octet-stream"
 }
